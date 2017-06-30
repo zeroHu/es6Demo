@@ -1,0 +1,26 @@
+{
+    "name": "es6Demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src -d lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zeroHu/es6Demo.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zeroHu/es6Demo/issues"
+    },
+    "homepage": "https://github.com/zeroHu/es6Demo#readme",
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1"
+    }
+}
