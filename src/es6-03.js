@@ -1,9 +1,5 @@
-let [a, b, c] = [1, 2, 3];
-let [sendA, sendB, sendC] = [
-    [],
-    [],
-    []
-];
-let { foo, bar } = { foo: "aaa", bar: "bbb" };
-
-let { m = {}, n = {} } = {};
+function add([x, y]) {
+    return x + y;
+}
+let and = add([1, 2]);
+console.log(and);
