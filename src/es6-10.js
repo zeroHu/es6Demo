@@ -17,3 +17,6 @@ function sortby(a, b) {
 
 var newarr = arr.sort(sortby)
 console.log(newarr);
+const sortby = (a,b) => a-b;
+let newarr = [1,10,3,9,2].sort(sortby)
+console.log(newarr)
